@@ -1,5 +1,5 @@
 # TDA-Online-Report
-# TDA Report - Data Catalogue & Next Steps
+# Data Catalogue & Next Steps
 
 This repository hosts both the **Data Catalogue** and the **Next Steps** for the *Technical Documentation Assessment Report* (TDA Report) system. The project aims to simplify the creation of a highly detailed technical document, traditionally compiled using Word, by gradually transitioning to a more agile and digital format.
 
