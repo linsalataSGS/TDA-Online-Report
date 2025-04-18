@@ -232,11 +232,12 @@ Page 1: TDA Header
 | └ Current Review Status                           | Reference List (Integer) | `CURRS`      | Yes (Dropdown)       | Yes           | Values: _Ongoing, Completed, Rejected_                                                                    |
 | └ Applicable Codes                                | Embedded Table           | `APPLICABLE` | Yes (Selection)      | Yes           | Embedded table with variable lines; editable from `Reference Tab. Applicable Codes`                       |
 | [[#📑 Subordinate Table `Requirements`]]          | Embedded Table           | `TDABIG`     | No (Fixed)           | Yes           | Main structure for documenting compliance against IVDR requirements, embeds a prefilled table of sections |
-|                                                   |                          |              |                      |               |                                                                                                           |
 
 ### 📑 Subordinate Table: `Requirements`
 (Embedded within `TDA Big Table Requirements` – Code: `TDABIG`)
 Page 2 and Sections: TDA Overview
+
+/*table to be done*/
 
 
 
