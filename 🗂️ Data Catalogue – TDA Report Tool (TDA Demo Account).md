@@ -203,6 +203,22 @@ Currently set as a fixed field — selection logic is still to be defined.
 - **User Interaction:** The user is expected to enter relevant content, and/or assessment outcomes for each requirement.
 - **Purpose:** This is the central working table for the Product Assessor to document compliance against IVDR requirements in a structured, section-by-section format.
 
+##### ▸ **Field: `Paragraph`**
+
+- **Data Type:** `Reference List (Integer)`
+- **Code:** `PNUM`
+- **Input from User:** No _(Automatically prefilled via Set of Values)_
+- **Mandatory:** Yes
+- **Description:** Identifies the specific paragraph (requirement section) that each row in the `Requirements` table refers to.  
+    Each paragraph corresponds to a predefined assessment item within the TDA structure under IVDR.
+- **Reference Table:** `Requirements Tab. Requirements (Code: REQ_REF, key: REQ_ID == Paragraph)
+- **Prefilled Set:** Automatically generated from the values in the reference table.
+- **Role in Structure:** This field acts as a key identifier and determines the content of each fixed line in the subordinate table.
+- **Dynamic Behavior:**  
+    The use of a reference table allows full flexibility: when new paragraphs are added to the reference, the list of requirements can be extended accordingly.
+    ⚠️ However, when updating the list of paragraphs, it is **crucial to also update the Prefilled Set** in the configuration of the subordinate table `REQ`, in order for the new paragraphs to be included properly.
+
+
 
 ---
 ### **Main Table – Field Summary**
